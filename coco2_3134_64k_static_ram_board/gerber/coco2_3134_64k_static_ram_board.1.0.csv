@@ -1,0 +1,7 @@
+Qty,Designator,Footprint,part#,Value
+2,"CN3, CN4, ",Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical,DNI,Conn_01x12_Male
+1,"J1, ",Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,DNI,Conn_01x04_Female
+3,"R1, R2, R3, ",Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,C17414,10K
+1,"U1, ",Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm,C141336,SN74HCT573PWR
+1,"U2, ",Package_SO:TSOP-II-32_21.0x10.2mm_P1.27mm,DNI,IS61C5128AS-25TLI
+1,"U3, ",Package_SO:SOIC-14_3.9x8.7mm_P1.27mm,C6781,SN74HCT32DR
