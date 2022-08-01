@@ -14,6 +14,9 @@ The design for this board was inspired by the following.
 ## Docs
 - [Schematic](https://github.com/qbancoffee/coco2_64k_sram/blob/main/pdfs/schematic.pdf)
 - [Rendered Image top](https://github.com/qbancoffee/coco2_64k_sram/blob/main/images/board_top_rendered.png)
-- [Rendered Image Bottom](https://github.com/qbancoffee/coco2_64k_sram/blob/main/images/board_bottom_rendered.png)
-- [Interactive BOM]((https://htmlpreview.github.io/?https://github.com/qbancoffee/coco2_64k_sram/blob/main/bom/ibom.html)
+- [Rendered Image bottom](https://github.com/qbancoffee/coco2_64k_sram/blob/main/images/board_bottom_rendered.png)
+- [Board top](https://github.com/qbancoffee/coco2_64k_sram/blob/main/images/board_top.jpg)
+- [Board bottom](https://github.com/qbancoffee/coco2_64k_sram/blob/main/images/board_bottom.jpg)
+- [Board installed](https://github.com/qbancoffee/coco2_64k_sram/blob/main/images/board_installed.jpg)
+- [Interactive BOM](https://htmlpreview.github.io/?https://github.com/qbancoffee/coco2_64k_sram/blob/main/bom/ibom.html)
 - [Bill Of Materials (BOM)](https://github.com/qbancoffee/coco2_64k_sram/blob/main/bom/bom.csv)
