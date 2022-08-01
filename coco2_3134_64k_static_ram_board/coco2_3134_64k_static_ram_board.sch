@@ -628,7 +628,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 7200 3550 7450
 Text Notes 5750 5900 0    50   ~ 0
-The data sheet for the 4464\nbasically says that  ~CAS~ is\na chip enable and that the\ndata must be ready before\nthe rising edge of ~RAS~ or\n~CAS~. I think this means \nthat if you OR the two\nyou can use them as an\nactive low chip enable.\nThe ~RAS~ refresh pulses\nwill have no effect on ~CE~\nwhen ~CAS~ is high.
+The data sheet for the 4464\nbasically says that  ~CAS~ is\na chip enable and that the\ndata is ready while ~RAS~\nand ~CAS~ are low. I think\nthis means that if you OR\nthe two you can use them\nas an active low chip enable.\nThe ~RAS~ refresh pulses\nwill have no effect on ~CE~\nwhen ~CAS~ is high.
 Text Notes 4500 1450 0    50   ~ 0
 This design is inspired by several projects.\nhttps://github.com/jamarju/c64-sram\nwhich in turn was inspired by\nhttps://postlmg.cc/Ty3Ff6sb\nAnd also Ciaran Ascomb's 512k\nSRAM board for the CoCo 3.\nhttps://gitlab.com/sixxie/cc3-512k
 Text Notes 1450 4450 0    50   ~ 0
