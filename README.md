@@ -22,4 +22,4 @@ The design for this board was inspired by the following.
 - [Bill Of Materials (BOM)](https://github.com/qbancoffee/coco2_64k_sram/blob/main/bom/bom.csv)
 
 ##Videos
--[Installing the board in a CoCo 2](https://youtu.be/qNmRELRTp34)
+- [Installing the board in a CoCo 2](https://youtu.be/qNmRELRTp34)
