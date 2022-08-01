@@ -21,5 +21,5 @@ The design for this board was inspired by the following.
 - [Interactive BOM](https://htmlpreview.github.io/?https://github.com/qbancoffee/coco2_64k_sram/blob/main/bom/ibom.html)
 - [Bill Of Materials (BOM)](https://github.com/qbancoffee/coco2_64k_sram/blob/main/bom/bom.csv)
 
-##Videos
+## Videos
 - [Installing the board in a CoCo 2](https://youtu.be/qNmRELRTp34)
