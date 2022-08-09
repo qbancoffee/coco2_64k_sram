@@ -628,7 +628,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 7200 3550 7450
 Text Notes 5750 5900 0    50   ~ 0
-The data sheet for the 4464\nbasically says that  ~CAS~ is\na chip enable and that the\ndata must be ready before\nthe rising edge of ~RAS~ or\n~CAS~. I think this means \nthat if you OR the two\nyou can use them as an\nactive low chip enable.\nThe ~RAS~ refresh pulses\nwill have no effect on ~CE~\nwhen ~CAS~ is high.
+The data sheet for the 4464\nbasically says that  ~CAS~ is\na chip enable and that the\ndata is ready while ~RAS~\nand ~CAS~ are low. I think\nthis means that if you OR\nthe two you can use them\nas an active low chip enable.\nThe ~RAS~ refresh pulses\nwill have no effect on ~CE~\nwhen ~CAS~ is high.
 Text Notes 4500 1450 0    50   ~ 0
 This design is inspired by several projects.\nhttps://github.com/jamarju/c64-sram\nwhich in turn was inspired by\nhttps://postlmg.cc/Ty3Ff6sb\nAnd also Ciaran Ascomb's 512k\nSRAM board for the CoCo 3.\nhttps://gitlab.com/sixxie/cc3-512k
 Text Notes 1450 4450 0    50   ~ 0
@@ -649,8 +649,8 @@ Wire Notes Line
 	5550 4250 6950 4250
 Wire Notes Line
 	6950 4250 6950 6150
-Text Notes 4300 2350 0    50   ~ 0
-After the SAM presents the first\n8 bits of the 16 bit address on\nM0-M7,  the rising edge of ~RAS~\nlatches it on Q0-Q7.
+Text Notes 4300 2450 0    50   ~ 0
+After the SAM presents the first\n8 bits of the 16 bit address on\nM0-M7,  high ~RAS~ places it on\nQ0-Q7 and then latches it when \n~RAS~ goes low.
 Text Notes 6600 3800 0    50   ~ 0
 The first 8 bits A0-A7 were latched\nearlier on the rising edge of ~RAS~ \nThe SAM now presents the final 8\nbits on M0-M7 with the falling edge\nof ~RAS~ and now the SRAM chip\nhas a 16 bit address.\n
 Wire Wire Line
@@ -680,11 +680,7 @@ Wire Notes Line
 Wire Notes Line
 	4250 2000 5600 2000
 Wire Notes Line
-	5600 2000 5600 2400
-Wire Notes Line
-	5600 2400 4250 2400
-Wire Notes Line
-	4250 2400 4250 2000
+	5600 2500 4250 2500
 Text Notes 3600 6300 0    50   ~ 0
 A16-A18 are the extra address\nlines on this chip that are pulled\nlow but also on a header so that\npeople can use it for bank\nswitching or whatever.
 Wire Notes Line
@@ -695,4 +691,8 @@ Wire Notes Line
 	5050 7750 3200 7750
 Wire Notes Line
 	3200 7750 3200 5800
+Wire Notes Line
+	5600 2000 5600 2500
+Wire Notes Line
+	4250 2000 4250 2500
 $EndSCHEMATC
