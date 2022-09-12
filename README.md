@@ -29,3 +29,4 @@ The design for this board was inspired by the following.
 
 ## Videos
 - [Installing the board in a CoCo 2](https://youtu.be/qNmRELRTp34)
+- [Making a through hole version of the board](https://youtu.be/qkUWCKWGy-E)
