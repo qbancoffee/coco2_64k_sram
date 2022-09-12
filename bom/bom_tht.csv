@@ -1,0 +1,6 @@
+Reference, Quantity, manufacturer part#, vendor, vendor part#, Value, Footprint, Datasheet
+C1 C2 C3 ,3,RDER71H104K0K1H03B,digikey,490-8814-ND,.1uF,Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm, https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/RDE_X7R_250V-1kV_E.pdf
+CN3 CN4 ,2,,,,Conn_01x12_Male,Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical,~
+U1 ,1,SN74ALS573CN,digikey,296-1502-5-ND,SN74ALS573CN,Package_DIP:DIP-20_W7.62mm_Socket_LongPads,https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74als573c
+U2 ,1,AS6C4008-55PIN,digikey,1450-1178-5-ND,AS6C4008-55PIN,Package_DIP:DIP-32_W15.24mm,https://www.alliancememory.com/wp-content/uploads/pdf/AS6C4008.pdf
+U3 ,1,SN74ALS32N,digikey,296-1495-5-ND,SN74ALS32N,Package_DIP:DIP-14_W7.62mm_Socket_LongPads,https://www.ti.com/lit/ds/sdas113b/sdas113b.pdf
